@@ -1,0 +1,29 @@
+.title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: "Playfair Display", serif;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+.description {
+  font-weight: 400;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+.note {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #505050;
+  text-decoration: underline;
+}
+.left_wave_bg {
+  background-image: url(../public//assets//images/left-wave-bg.png);
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: left;
+  background-repeat: no-repeat;
+}
