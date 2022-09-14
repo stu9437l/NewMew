@@ -798,5 +798,100 @@ footer .nav-link {
   justify-content: center;
 }
 .mySwiper .swiper-slide-thumb-active {
-  border-top: 3px solid var(--dark-blue);
+  border-top: 4px solid var(--dark-green);
+}
+
+/* Porduct list page */
+.product-all-list .option-title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: var(--dark-black);
+  font-family: var(--poppin);
+}
+.product-all-list .filter-list {
+  list-style: none;
+  padding: 0 2rem;
+}
+
+.product-all-list .filter-list .filter-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.product-all-list .filter-list .filter-title p,
+.product-all-list .filter-list .filter-title svg {
+  font-weight: 500;
+  font-size: 1.4rem;
+  font-family: var(--poppin);
+  color: var(--dark-black);
+}
+.product-all-list .filter-list .filter-title svg {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.product-all-list .filter-list input[type="checkbox"] {
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 0rem;
+  border: 1px solid var(--dark-black);
+  accent-color: var(--dark-green);
+}
+
+.product-all-list .filter-list .filter-item label {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: var(--dark-black);
+  font-family: var(--poppin);
+}
+.product-all-list .price-range .form-control {
+  height: 3rem;
+  border: 1px solid #404040;
+  padding: 0 2rem;
+  background-color: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--poppin);
+  box-shadow: none;
+  border-radius: 0px;
+}
+.btn.filter-price {
+  height: 3rem;
+  border: 1px solid #404040;
+  padding: 0 2rem;
+  background-color: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--poppin);
+  border-radius: 0px;
+}
+.product-all-list .ordering-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-all-list .ordering-header h4 {
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: var(--poppin);
+  color: var(--dark-black);
+}
+.product-all-list .ordering-header select {
+  height: 3rem;
+  border: 1px solid #404040;
+  font-weight: 400;
+  font-size: 1.4rem;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.product-all-list .ordering-header p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  font-family: var(--poppin);
+  color: var(--dark-black);
+  white-space: nowrap;
+}
+.product-all-list .ordering-header svg {
+  font-size: 2rem;
+  color: var(--dark-black);
 }

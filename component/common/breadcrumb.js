@@ -28,3 +28,23 @@ const Breadcrumb = ({ category, productName }) => {
 };
 
 export default Breadcrumb;
+export const Breadcrumb2 = ({ category }) => {
+  return (
+    <div className="bg_light py-4 border-top border-bottom">
+      <div className="container">
+        <nav>
+          <ol className="breadcrumb mb-0">
+            <li className="breadcrumb-item">
+              <Link href="">
+                <a type="button">Home</a>
+              </Link>
+            </li>
+            <li className="breadcrumb-item active" aria-current="page">
+              {category}
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  );
+};
