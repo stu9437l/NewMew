@@ -213,7 +213,7 @@ export const BuyProductModal = () => {
                 </div>
                 <div className="col-6">
                   <div className="card-body multi-form d-none">
-                    <div className="d-flex align-itmes-center justify-content-between sub-title mb-5">
+                    <div className="d-flex align-items-center justify-content-between sub-title mb-5">
                       <div style={{ visibility: "hidden" }}>
                         <BiChevronLeft />
                       </div>
@@ -272,7 +272,7 @@ export const BuyProductModal = () => {
                     </form>
                   </div>
                   <div className="card-body multi-form d-none">
-                    <div className="d-flex align-itmes-center justify-content-between sub-title mb-5">
+                    <div className="d-flex align-items-center justify-content-between sub-title mb-5">
                       <div>
                         <BiChevronLeft />
                       </div>
@@ -335,7 +335,7 @@ export const BuyProductModal = () => {
                     </form>
                   </div>
                   <div className="card-body multi-form login d-none">
-                    <div className="d-flex align-itmes-center justify-content-between sub-title mb-5">
+                    <div className="d-flex align-items-center justify-content-between sub-title mb-5">
                       <div>
                         <BiChevronLeft />
                       </div>
@@ -395,7 +395,7 @@ export const BuyProductModal = () => {
                     </form>
                   </div>
                   <div className="card-body multi-form login ">
-                    <div className="d-flex align-itmes-center justify-content-between sub-title mb-5">
+                    <div className="d-flex align-items-center justify-content-between sub-title mb-5">
                       <div>
                         <BiChevronLeft />
                       </div>
