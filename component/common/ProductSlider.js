@@ -46,7 +46,7 @@ const ProductSLider = () => {
       <Swiper
         onSwiper={setThumbsSwiper}
         spaceBetween={20}
-        slidesPerView={4}
+        slidesPerView={3}
         freeMode={true}
         watchSlidesProgress={true}
         modules={[FreeMode, Navigation, Thumbs]}

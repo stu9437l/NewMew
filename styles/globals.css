@@ -581,6 +581,168 @@ footer .nav-link {
   font-size: 1.6rem;
   font-weight: 500;
 }
+.buy-product.modal .mySwiper2::after {
+  display: none !important;
+}
+.buy-product.modal .mySwiper2 {
+  height: 24rem !important;
+}
+.buy-product.modal .card-body {
+  padding: 8em;
+}
+.buy-product.modal .title {
+  font-weight: 700;
+  font-size: 3.6rem;
+  font-family: var(--playfair);
+  color: var(--dark-black);
+  margin-bottom: 4rem;
+}
+.buy-product.modal .product-bill p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #666666;
+  font-family: var(--poppin);
+}
+.buy-product.modal .product-bill h5 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #666666;
+  font-family: var(--poppin);
+}
+.buy-product.modal .product-bill h4 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: var(--dark-black);
+  font-family: var(--poppin);
+}
+.buy-product.modal .multi-form .sub-title h3 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: var(--dark-black);
+  font-family: var(--playfair);
+}
+.buy-product.modal .multi-form .sub-title svg {
+  font-size: 2.4rem;
+  color: var(--dark-black);
+}
+.buy-product.modal .multi-form .tab-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 6px;
+}
+.buy-product.modal .multi-form input[type="radio"]:checked ~ label {
+  border: 1px solid #007b8f;
+}
+.buy-product.modal .multi-form .tab-label h5 {
+  font-weight: 500;
+  font-size: 2rem;
+  color: var(--dark-green);
+  font-family: var(--poppin);
+}
+.buy-product.modal .multi-form .tab-label p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #666666;
+  font-family: var(--poppin);
+}
+.buy-product.modal .multi-form .tab-label svg {
+  font-size: 3rem;
+  color: #007b8f;
+}
+.buy-product.modal .multi-form .validation-error {
+  color: var(--dark-red);
+  font-weight: 400;
+  font-size: 16px;
+  font-family: var(--poppin);
+  margin-top: 0.5rem;
+}
+.buy-product.modal .multi-form .eye-type {
+  font-weight: 600;
+  font-size: 1.6rem;
+  font-family: var(--poppin);
+  color: var(--dark-black);
+}
+.buy-product.modal .multi-form .aurthsaveOption {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: var(--poppin);
+  text-decoration: none;
+}
+.buy-product.modal .multi-form .aurthsaveOption.blue {
+  color: var(--dark-blue);
+}
+.buy-product.modal .multi-form .aurthsaveOption.green {
+  color: var(--dark-green);
+}
+.buy-product.modal .multi-form .form-control,
+.buy-product.modal .multi-form .form-select {
+  height: 5rem;
+  font-size: 1.6rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  color: var(--dark-black);
+  background-color: #f3f3f3;
+  box-shadow: none;
+  border: 1px solid #f3f3f3;
+  font-family: var(--poppin);
+}
+.buy-product.modal .multi-form .form-control:focus {
+  background-color: white;
+  border: 1px solid var(--dark-green);
+}
+.buy-product.modal .multi-form input[type="checkbox"] {
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 0rem;
+  border: 1px solid var(--dark-black);
+  accent-color: var(--dark-green);
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+}
+.buy-product.modal .multi-form.login label {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: var(--poppin);
+  color: #666666;
+}
+.buy-product.modal .multi-form .authLink {
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #666666;
+  font-family: var(--poppin);
+}
+.modal .modal-content {
+  position: relative;
+}
+.modal .modal-close {
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background-color: white;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.modal .modal-close svg {
+  font-size: 2.4rem;
+  color: var(--dark-black);
+}
+.modal .modal-close:hover svg {
+  color: var(--dark-red);
+}
 
 /* custom breadcrumb */
 .breadcrumb-item {
@@ -690,7 +852,7 @@ footer .nav-link {
   box-shadow: none;
   border: 1px solid #f3f3f3;
 }
-.single-product-detail .btn.lg-add-to-cart {
+.btn.lg-add-to-cart {
   height: 6.4rem;
   display: flex;
   align-items: center;

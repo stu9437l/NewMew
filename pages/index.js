@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Category from "../component/Category";
 import {
+  BuyProductModal,
   ClosedModal,
   SubscriptionModal,
   SummmerSaleModal,
-} from "../component/common/modal/Subscription_Modal";
+} from "../component/common/modal/Modal";
 import Offer from "../component/common/offer";
 import ExtraService from "../component/ExtraService";
 import Feature from "../component/Features";
@@ -25,6 +26,7 @@ const Home = () => {
       {/* <SubscriptionModal />
       <ClosedModal />
       <SummmerSaleModal /> */}
+      <BuyProductModal />
     </>
   );
 };

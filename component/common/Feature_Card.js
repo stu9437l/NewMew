@@ -11,7 +11,7 @@ const FeatureCard = ({ image, type, fLink, lLink }) => {
       <ul className="breadcrumb-list-links">
         <li className="item me-2">
           <Link href="">
-            <div className="d-flex align-items-cener ">
+            <div className="d-flex align-items-center ">
               <a type="button" className="link">
                 {fLink}
               </a>
@@ -21,7 +21,7 @@ const FeatureCard = ({ image, type, fLink, lLink }) => {
         </li>
         <li className="item me-2">
           <Link href="">
-            <div className="d-flex align-items-cener">
+            <div className="d-flex align-items-center">
               <a a type="button" className="link">
                 {lLink}
               </a>
