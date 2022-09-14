@@ -8,17 +8,11 @@ const ProductCard = () => {
   return (
     <div className="product card p-4">
       <div className="card-body">
-        <Image src={product} height={112} width={206} alt="category-list" />|
-        <label htmlFor="favorite-box" className="favorite-box">
+        <Image src={product} height={112} width={206} alt="category-list" />
+        <input type="radio" id="favorite" name="favorite" className="d-none" />
+        <label htmlFor="favorite">
           <FaHeart />
         </label>
-        <input
-          type="radio"
-          id="favorite-box"
-          name="favorite"
-          className="d-none"
-          checked
-        />
         <div className="tag-badge">Limitless</div>
       </div>
       <div className="d-flex align-items-start justify-content-between mb-4">
