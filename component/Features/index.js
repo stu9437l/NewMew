@@ -5,7 +5,7 @@ import kid from "../../public/assets/images/category/kid.png";
 
 const Feature = () => {
   return (
-    <sction className="">
+    <section className="">
       <div className="container">
         <div className="row">
           <div className="col-4">
@@ -34,7 +34,7 @@ const Feature = () => {
           </div>
         </div>
       </div>
-    </sction>
+    </section>
   );
 };
 

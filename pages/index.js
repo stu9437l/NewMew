@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Banner from "../component/Banner";
 import Category from "../component/Category";
 import {
   BuyProductModal,
@@ -18,6 +19,7 @@ import Treding from "../component/Trending";
 const Home = () => {
   return (
     <>
+      <Banner />
       <Feature />
       <Category />
       <Offer />
@@ -25,8 +27,8 @@ const Home = () => {
       <HottestCollection />
       {/* <SubscriptionModal />
       <ClosedModal />
-      <SummmerSaleModal /> */}
-      <BuyProductModal />
+      <SummmerSaleModal />
+      <BuyProductModal /> */}
     </>
   );
 };

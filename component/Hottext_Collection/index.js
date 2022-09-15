@@ -3,7 +3,7 @@ import SectionTitle from "../common/Section_Title";
 
 const HottestCollection = () => {
   return (
-    <section>
+    <section className="pb-section">
       <SectionTitle
         subtitle="Our Hotest collections"
         mainTitle="New Arrivals"

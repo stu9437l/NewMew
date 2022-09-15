@@ -3,9 +3,10 @@ import Breadcrumb from "../../component/common/breadcrumb";
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineCheck } from "react-icons/ai";
 import Link from "next/link";
-import ProductSlider from "../../component/common/ProductSlicer";
+// import ProductSlider from "../";
 import RelatedProduct from "../../component/Related_Products";
 import ProductCard from "../../component/common/productCard";
+import ProductSLider from "../../component/common/ProductSlider";
 
 const ProductDetail = () => {
   const hanadleChange = () => {
@@ -24,7 +25,7 @@ const ProductDetail = () => {
         <div className="container">
           <div className="row">
             <div className="col-7">
-              <ProductSlider />
+              <ProductSLider />
             </div>
             <div className="col-5">
               <p className="brand-tag mb-1">NEWMEW</p>

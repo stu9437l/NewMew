@@ -174,7 +174,7 @@ export const SummmerSaleModal = () => {
   );
 };
 export const BuyProductModal = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const handleShow = () => {
     setShow(!show);
   };

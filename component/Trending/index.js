@@ -33,6 +33,7 @@ const Treding = () => {
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
           pagination={pagination}
+          className="swiper-padding"
         >
           <SwiperSlide>
             <ProductCard />

@@ -7,7 +7,7 @@ import {
 
 const NewsLetter = () => {
   return (
-    <section className="newsletter bg_light mt-3">
+    <section className="newsletter bg_light mt-3 pb-section">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-4">

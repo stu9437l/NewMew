@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import MainSliderImage from "../../public/assets/images/single-slider/main-image.png";
 import thumb1 from "../../public/assets/images/single-slider/thumb1.png";
